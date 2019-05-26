@@ -1,0 +1,5 @@
+myfile = open("fruits.txt")
+content = myfile.read()
+panjang = content.len(myfile)
+print(content)
+print(panjang)

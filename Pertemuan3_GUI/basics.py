@@ -1,0 +1,6 @@
+myfile = open("perangkat.txt")
+content = myfile.read()
+myfile.close()
+print(content)
+content = content.splitlines()
+print(content)

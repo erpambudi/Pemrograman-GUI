@@ -1,0 +1,53 @@
+>>> a = [1,3,5,7,9]
+>>> for i in a:
+...     b = i+10
+...
+>>>
+>>> for i in a:
+...     b = i+10
+...     print(b)
+...
+11
+13
+15
+17
+19
+>>> myfile=open("pegawai.txt","w")
+>>> myfile.write("Bams")
+4
+>>> myfile.close()
+>>> myfile=open("pegawai.txt","w")
+>>> myfile.write("Samsons")
+7
+>>> myfile.close()
+>>> myfile=open("pegawai.txt","w")
+>>> myfile.write("Samsons")
+7
+>>> myfile.write("Betawi")
+6
+>>> myfile.close()
+>>> myfile=open("pegawai.txt","w")
+>>> myfile.write("Samsons")
+7
+>>> myfile.write("\nBetawi")
+7
+>>> myfile.close()
+>>> myfile=open("pegawai.txt","a")
+>>> myfile.write("Samsons")
+7
+>>> myfile.write("\nBetawi")
+7
+>>> myfile.write("\nSas")
+4
+>>> myfile.close()
+>>> myfile=open("pegawai.txt","a+")
+>>> myfile.read()
+''
+>>> myfile.seek(0)
+0
+>>> myfile.read()
+'Samsons\nBetawiSamsons\nBetawi\nSas'
+>>> myfile.write("\nJon")
+4
+>>> myfile.close()
+>>>

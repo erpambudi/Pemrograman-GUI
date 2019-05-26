@@ -1,0 +1,6 @@
+masukan= input("masukan nama anda : ")
+bilangan= input("masukan angka : ")
+pecahan = float(input("masukan angka : "))
+print(bilangan)
+print(masukan)
+print(pecahan)
